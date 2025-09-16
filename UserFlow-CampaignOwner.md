@@ -1,4 +1,4 @@
-# Campaign Owner User Flows
+![CrowdWalrus CampaignOwner User Flows](./images/CO.PNG)
 
 ## Overview
 
