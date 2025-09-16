@@ -2,6 +2,8 @@
 
 User personas represent the various types of users interacting with the CrowdWalrus platform. Each persona has distinct roles and permissions that guide their actions and behavior. Below is an overview of each persona:
 
+Better visibility in the [Miro Board]([URL](https://miro.com/app/board/uXjVJOD-kpA=/?share_link_id=543826822684)){:target="_blank"}
+
 ![User Personas](/images/User%20Personas.PNG)
 
 ### General Users
