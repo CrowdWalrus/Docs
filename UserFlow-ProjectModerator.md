@@ -1,4 +1,8 @@
-# Project Moderator User Flows
+![UserFlows-ProjectModerator](./images/Mo.PNG)
+
+### overview
+
+The Project Moderator user flows encompass essential tasks for managing projects and campaigns on the CrowdWalrus platform. Moderators are responsible for creating and linking campaigns to projects, ensuring they align with project goals and community guidelines. They also have the authority to unlink campaigns from projects when necessary, providing flexibility in campaign management. Additionally, they can update campaign information, such as goals, images, and descriptions, to maintain transparency and engagement. Moderators also manage their profiles, ensuring they have control over their personal details. These flows ensure that the platform remains dynamic and well-managed, allowing moderators to keep the ecosystem running smoothly.
 
 ## 1. Create Campaign
 - **Flow**: A Project Moderator can create new campaigns under existing projects, providing necessary details such as campaign name, financial goal, and timeline. This also involves setting up donation targets.
