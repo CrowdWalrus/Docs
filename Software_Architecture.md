@@ -66,7 +66,7 @@ Smart contracts will be developed in **Move**, the smart contract language of Su
 
 ### Front-End
 
-See [Frontend Architecture Tools](https://www.notion.so/Frontend-Architecture-Tools-2613ab28d48c80cb912dc594702020e5?pvs=21) 
+See [Frontend Architecture Tools](Frontend%20Architecture%20%26%20Tools.md)
 
 ### Walrus
 
@@ -136,7 +136,7 @@ Users who want to contribute to projects or campaigns on CrowdWalrus will follow
 
 **Flow**
 
-1. On the project or campaign page, the user selects the token and amount they wish to contribute. If the [Split Model](https://www.notion.so/Split-Model-26f3ab28d48c8041985cf53f489b5c41?pvs=21)  allows the user to choose the fees for the involved parties, the user will select the fee percentage for each involved party.
+1. On the project or campaign page, the user selects the token and amount they wish to contribute. If the [Split Model](### Split Model)  allows the user to choose the fees for the involved parties, the user will select the fee percentage for each involved party.
 2. The user makes a call to the CrowdWalrus main contract to contribute to the selected project or campaign, including parameters that define the split model for the involved parties (e.g., CrowdWalrus 2%, Project 7%). The method signature could look like this:
     
     `crowdwalrus.donate(amount: u64, coin: Coin, project_id: Option<ID>, campaign_id: Option<ID>, crowdwalrus_fee: SplitModel, project_fee: Option<SplitModel>, campaign_fee: Option<SplitModel>)`
