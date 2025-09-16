@@ -1,4 +1,4 @@
-# Backer/Donor User Flows
+![CrowdWalrus Donor User Flows](./images/Do.PNG)
 
 ## Overview
 These user flows describe the steps a Backer/Donor follows on the CrowdWalrus platform, from profile creation to making donations. The flows ensure a smooth and transparent process for contributors, enabling them to donate to campaigns and projects effortlessly. Each flow is designed to integrate seamlessly with decentralized technologies, providing transparency and accessibility.
