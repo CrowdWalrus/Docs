@@ -28,16 +28,14 @@ Based on the initial design, CrowdWalrus will support the following user roles:
 
 | **Role** | **Description** |
 | --- | --- |
-| Owner | It will be the highest-priority role, typically granted to a multi-sig. This account will own the CrowdWalrus domain name, Sui packages (contract modules), and have authority to grant the verifier role on the CrowdWalrus main contract. It may also have the ability to change the owner of projects or campaigns, though this is not yet certain.
-
-Additionally, the owner will have control over the SuiNS manager. SuiNS is a contract that will have access to the CrowdWalrus main SuiNS domain (which owns the domain’s NFT). This enables programmatic registration of SuiNS subdomains during project and campaign creation. The owner will be able to transfer the domain NFT ownership to this contract and reclaim ownership when necessary. We may have define other accesses over SuiNS manager based on needs. |
+| Owner | It will be the highest-priority role, typically granted to a multi-sig. This account will own the CrowdWalrus domain name, Sui packages (contract modules), and have authority to grant the verifier role on the CrowdWalrus main contract. It may also have the ability to change the owner of projects or campaigns, though this is not yet certain. Additionally, the owner will have control over the SuiNS manager. SuiNS is a contract that will have access to the CrowdWalrus main SuiNS domain (which owns the domain’s NFT). This enables programmatic registration of SuiNS subdomains during project and campaign creation. The owner will be able to transfer the domain NFT ownership to this contract and reclaim ownership when necessary. We may have define other accesses over SuiNS manager based on needs. |
 | Verifier/Admin | This role, which can be held by multiple accounts, will have the ability to grant or revoke verified badges for projects and campaigns. |
 | Project Owner | The project creator will hold the project owner capability, ownerCap, by default, unless it is transferred to another account. The project owner will be able to create adminCap for accounts and grant them  the admin privileges. |
 | Project Moderator | Holding moderatorCap, will be able to manage collected donations, publish project updates, make edits when needed, activate/deactivate the project, and accept link requests from campaigns.  |
 | Campaign Owner | The campaign creator will be its owner and can transfer ownership to another account. Similar to a project owner, they can manage funds, post updates, and activate/deactivate the campaign. They also may propose link requests to projects. |
 | Backer | Supports projects and campaigns with allowed tokens. |
 
-![Untitled-2025-09-01-1308.svg](Untitled-2025-09-01-1308.svg)
+![Untitled-2025-09-01-1308.svg](images/Untitled-2025-09-01-1308.svg)
 
 ### Storage
 
