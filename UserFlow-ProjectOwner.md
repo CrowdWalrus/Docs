@@ -1,4 +1,10 @@
-# Project Owner User Flows
+![CrowdWalrus ProjectOwner User Flows](./images/PO.PNG)
+
+### Overview
+
+The project owner user flows provide a comprehensive and secure process for managing projects and campaigns on the platform. These flows include creating and editing projects, adding or removing moderators, and creating or unlinking campaigns under projects. Additionally, project owners can post updates, manage user profiles, and de-activate or delete projects when necessary. Each action requires wallet connectivity and transaction signing, ensuring secure and decentralized management of projects. The flows also involve creating SUINS subnames for projects and campaigns, maintaining a seamless interaction between on-chain and off-chain data.
+
+
 
 ## 1. Create a Project
 - **Description**: The project owner connects their wallet, fills out the necessary project information like title, description, and funding requirements, registers the project, and signs the transaction. In the background, a SUINS leaf subname is also registered for the project.
