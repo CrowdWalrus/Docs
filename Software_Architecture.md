@@ -76,6 +76,12 @@ Walrus has provided an [SDK](https://sdk.mystenlabs.com/walrus), based on TypeSc
 
 An indexer is not yet a mandatory part of the software design. We may be able to deliver a fast application without using one, as the initial plan is to read all data directly from the Sui network through API calls. Sui Foundation provides robust [gRPC and GraphQL endpoints](https://docs.sui.io/guides/developer/getting-started/data-serving) for data access. However, this approach could result in excessive repeated calls to the endpoint, making the system vulnerable to rate limits or slow rendering. In such cases, we will need to consider developing an indexer, with the best option being a [Sui custom indexer](https://docs.sui.io/guides/developer/advanced/custom-indexer) built on Rust and Postgres.
 
+### SuiNS
+
+SuiNS is an on-chain name service for the Sui blockchain. It is a contract used to register and manage subdomains under the CrowdWalrus main domain. Domains registered on SuiNS serve to identify projects and campaigns on CrowdWalrus, and they can be fetched both on-chain and off-chain.
+
+We will leverage the SuiNS service to resolve project and campaign subdomains. Upon project or campaign creation, the suggested subdomain will be registered as a subname under the CrowdWalrus main domain. This subname will point to the object ID of the created project or campaign, enabling us to load the respective project or campaign page off-chain when accessed. Additionally, the CrowdWalrus subdomains will be visible on Sui network explorers and other tools that support SuiNS, linked to the corresponding project or campaign objects (e.g., my-project.crowdwalrus.sui).
+
 ## Entities
 
 In the CrowdWalrus platform, entities represent the core components within the system. Each entity is responsible for different aspects of the platform's operations, and their interactions are managed through decentralized logic on the Sui blockchain. Below are the main entities within the CrowdWalrus ecosystem and their responsibilities:
