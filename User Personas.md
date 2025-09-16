@@ -7,6 +7,8 @@ User personas define the different types of users interacting with the CrowdWalr
 - Can verify projects / campaigns so they can get a verified badge.
 - Verified projects can get listed on CrowdWalrus homepage.
 
+![User Personas](./images/User%20Personas.png)
+
 ---
 
 ### Backers / Donors
