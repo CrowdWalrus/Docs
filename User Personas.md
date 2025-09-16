@@ -17,7 +17,7 @@ User personas represent the various types of users interacting with the CrowdWal
 - Can view user profiles, including their level, represented as an awards NFT.
 - Can check if a campaign has earned a verification badge from CrowdWalrus.
 
-![User Personas-General User](GeneralUsers.PNG)
+![User Personas-General User](/images/GeneralUsers.PNG)
 
 ---
 
@@ -37,7 +37,7 @@ User personas represent the various types of users interacting with the CrowdWal
 - Can track project and campaign updates.
 - Can view user profiles and their level, represented as an NFT.
   
-![User Personas-Donors](Backers-Donors.PNG)
+![User Personas-Donors](/images/Backers-Donors.PNG)
 
 ---
 
@@ -51,7 +51,7 @@ User personas represent the various types of users interacting with the CrowdWal
 - Can view the donations list, amounts, USD value, and total raised in USD.
 - Can deactivate or delete the campaign.
 
-![User Personas-CampaignOwner](CampaignOwner.PNG)
+![User Personas-CampaignOwner](/images/CampaignOwner.PNG)
 
 ---
 
@@ -68,7 +68,7 @@ User personas represent the various types of users interacting with the CrowdWal
 - Can view the donations list, amounts, USD value, total raised in USD, hosted campaigns, campaign owners, and moderators.
 - Can deactivate or delete the project.
 
-![User Personas-Project Owner](ProjectOwner.PNG)
+![User Personas-Project Owner](/images/ProjectOwner.PNG)
 
 ---
 
@@ -78,4 +78,4 @@ User personas represent the various types of users interacting with the CrowdWal
 - Can create campaigns under the project.
 - Can view the donations list, amounts, USD value, total raised in USD, hosted campaigns, campaign owners, and moderators.
 
-![User Personas-Project Moderator](ProjectModerator.PNG)
+![User Personas-Project Moderator](/images/ProjectModerator.PNG)
