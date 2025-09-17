@@ -38,7 +38,7 @@ This repository is **for documentation only** — covering product design, user 
 - [📂 Project Owner Flow](./UserFlow-ProjectOwner.md)  
 - [🛡 Project Moderator Flow](./UserFlow-ProjectModerator.md)  
 - [🎯 Campaign Owner Flow](./UserFlow-CampaignOwner.md)  
-- [💝 Backer / Donor Flow](./UserFlow-Backer-Donor.md)  
+- [💝 Backer/Donor Flow](./UserFlow-Backer-Donor.md)  
 - ✨ *Planned:* Sequence Diagrams, Edge Cases  
 
 ---
@@ -66,4 +66,4 @@ This repository is **for documentation only** — covering product design, user 
 ## 📜 License
 > To be added (suggested: **CC BY-SA 4.0** for documentation).  
 # Docs
-CrowdWalrus Documentation for Product, Tech, UI/UX, Tests, Team Management, CI/CD and everything related
+CrowdWalrus Documentation for Product, Tech, UI/UX, Tests, Team Management, CI/CD, and everything related
