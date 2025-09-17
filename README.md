@@ -44,7 +44,7 @@ This repository is **for documentation only** — covering product design, user 
 ---
 
 ### 5. 💸 Economics & Rewards
-- [⚖️ Financial Split Models](./Financial-Split-Models/)  
+- [⚖️ Financial Split Models](./Financial-Split-Models.md)  
 - [🎁 NFT Reward Mechanism](./NFT-Reward-Mechanism.md)  
 - ✨ *Planned:* QF, Tokenomics, Incentive Design  
 
