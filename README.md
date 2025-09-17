@@ -27,7 +27,7 @@ This repository is **for documentation only** — covering product design, user 
 ---
 
 ### 3. 🏛 Architecture & Tech Research
-- [🖥 Software Architecture](./Software%20Architecture%202613ab28d48c80f6a6d8cb9bfa27c18f.md)  
+- [🖥 Software Architecture](./Software_Architecture.md)  
 - [🎨 Frontend Architecture & Tools](./Frontend%20Architecture%20%26%20Tools.md)  
 - ✨ *Planned:* Smart Contracts, Data Model, Audit  
 
