@@ -57,5 +57,3 @@ The verification system integrates seamlessly into the CrowdWalrus platform. Whe
 ### Future Vision
 In the long term, CrowdWalrus aims to evolve the verification system by introducing a **community-led governance model**. This will allow the community of backers, project owners, and verifiers to actively participate in shaping the rules and criteria for verification. By incorporating decentralized governance, CrowdWalrus will become even more community-driven and transparent.
 
-## Conclusion
-The **verification system** in CrowdWalrus is a critical component that ensures transparency, trust, and decentralization. By leveraging **Sui blockchain**, **Walrus decentralized storage**, and smart contracts, the system offers a secure and scalable way to verify projects, empowering users to contribute to legitimate and impactful projects. As CrowdWalrus grows, the decentralized nature of the platform ensures that no single entity holds control, fostering a fair and inclusive environment for all.
