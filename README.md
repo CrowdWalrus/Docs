@@ -11,16 +11,17 @@ This repository is **for documentation only** — covering product design, user 
 ## 📚 Table of Contents
 
 ### 1. 🚀 Introduction
-- [Overview: Projects vs Campaigns](./Understanding-Projects-Campaigns-Differences.md)  
-- [👤 User Personas](./User%20Personas.md)  
+- [🌟 Product Overview, Purpose and Vision](./Product-Overview-Purpose-Vision.md)
+- [Projects vs Campaigns](./Understanding-Projects-Campaigns-Differences.md)  
+- [👤 User Personas](./User%20Personas.md)
+- [🤝 Target Audiences](./TargetAudiences.md)
 - [✅ Verification Process](./VerificationProcess.md)  
 
 ---
 
 ### 2. 📐 Product Scoping
-- [📄 MVP Scope (Proposal Doc 1)](./docs/Decentralized-Crowdfunding-CrowdWalrus.md)  
-- [📄 MVP Scope (Proposal Doc 2 – v2 by Moenick)](./docs/CrowdWalrus-MVP-v2.md)  
-- [🏗 Projects vs Campaigns](./Understanding-Projects-Campaigns-Differences.md)  
+- [📄 Original Proposal](./OriginalProposal.md)  
+- [📄 Detailed MVP Scope](./docs/MVP-scope.md)  
 - ✨ *Planned:* [Roadmap](./Roadmap.md), [Changelog](./CHANGELOG.md), [FAQ](./FAQ.md)  
 
 ---
@@ -28,7 +29,7 @@ This repository is **for documentation only** — covering product design, user 
 ### 3. 🏛 Architecture & Tech Research
 - [🖥 Software Architecture](./Software%20Architecture%202613ab28d48c80f6a6d8cb9bfa27c18f.md)  
 - [🎨 Frontend Architecture & Tools](./Frontend%20Architecture%20%26%20Tools.md)  
-- ✨ *Planned:* Smart Contracts, Data Model, Security Model  
+- ✨ *Planned:* Smart Contracts, Data Model, Audit  
 
 ---
 
@@ -45,19 +46,13 @@ This repository is **for documentation only** — covering product design, user 
 ### 5. 💸 Economics & Rewards
 - [⚖️ Financial Split Models](./Financial-Split-Models/)  
 - [🎁 NFT Reward Mechanism](./NFT-Reward-Mechanism.md)  
-- ✨ *Planned:* Tokenomics, Incentive Design  
+- ✨ *Planned:* QF, Tokenomics, Incentive Design  
 
 ---
 
 ### 6. 🛡 Governance & Policy
 - [✅ Verification Process](./VerificationProcess.md)  
 - ✨ *Planned:* Content Policy, Listing Policy, Trust & Safety, Privacy & Data  
-
----
-
-### 7. 🤝 Contributing
-- ✨ *Planned:* [Contributing](./CONTRIBUTING.md)  
-- ✨ *Planned:* [Docs Styleguide](./Docs-Styleguide.md)  
 
 ---
 
