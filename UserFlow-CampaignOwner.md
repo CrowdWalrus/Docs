@@ -44,10 +44,3 @@ These are the key user flows for Campaign Owners within the CrowdWalrus platform
 
 ![Delete a Campaign](./images/CO-delete.PNG)
 
----
-
-## 6. Manage Profile
-
-**Description**: Campaign Owners can view and update their personal profiles. This includes updating contact information, preferences, and other relevant details associated with their account.
-
-![Manage Profile](./images/CO-profile.PNG)
