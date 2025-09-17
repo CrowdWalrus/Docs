@@ -22,7 +22,7 @@ This repository is **for documentation only** — covering product design, user 
 ### 2. 📐 Product Scoping
 - [📄 Original Proposal](./OriginalProposal.md)  
 - [📄 Detailed MVP Scope](./MVP-scope.md)  
-- ✨ *Planned:* [Roadmap](./Roadmap.md), [Changelog](./CHANGELOG.md), [FAQ](./FAQ.md)  
+- ✨ *Planned:* [Roadmap], [Changelog], [FAQ]
 
 ---
 
