@@ -1,9 +1,11 @@
 # Verification Process in CrowdWalrus
 
 ## Overview
-Verification in the CrowdWalrus platform is designed to decentralize project oversight while establishing trust and transparency. The platform’s core mission is to create an open, decentralized ecosystem that empowers anyone to launch a fundraising campaign or project, while also ensuring that only legitimate, trustworthy initiatives are promoted. 
 
-Unlike traditional crowdfunding platforms that often rely on centralized processes and complex vetting systems, CrowdWalrus takes a decentralized approach. This system offers an easy and inclusive way for anyone to participate in crowdfunding while ensuring the integrity and legitimacy of the projects. The verification process serves as a key mechanism in promoting accountability and transparency to the community of users and investors.
+Verification in the CrowdWalrus platform marks an initial step toward decentralizing project oversight operations. A core mission of CrowdWalrus is to create an open, decentralized platform that enables everyone to launch diverse projects. While we cannot prevent individuals from initiating projects they wish to fundraise for, we can establish trust by providing clear indicators of a project’s legitimacy and reliability to users and investors.
+
+Past experiences have shown that achieving this through cumbersome forms, intricate processes, document requests, and reviews of individuals’ backgrounds and online credibility is highly complex. To address this, our first step is to introduce decentralization through a single admin role. Over time, this admin can onboard additional verifiers to the platform. These verifiers, contributing as their schedules allow and without excessive time demands, will form a community capable of conducting verifications. This process ensures that projects and campaigns receive a verified badge, confirming they are legitimate, comply with terms of service, are not fraudulent or illegal, and are supported by reputable creators.
+
 
 ## How It Works
 
@@ -16,13 +18,12 @@ The verification process begins with the creation of a project or campaign by a 
 3. **Verification Criteria**: 
    - Projects and campaigns must comply with CrowdWalrus’s terms of service.
    - They should not be fraudulent or illegal.
-   - They must be initiated by reputable creators with a track record of legitimacy.
+   - They must be initiated by reputable businesses/creators/nonprofits/public-goods with a track record of legitimacy.
    
 4. **Badge Assignment**: Once a project is verified, it will receive a verified badge, which will be publicly visible on the project’s page. This badge acts as a clear indicator of the project’s legitimacy, offering users confidence in their investment decisions.
 
 5. **Smart Contracts for Transparency**: The verification process is supported by smart contracts on the Sui blockchain. These contracts ensure that the verification criteria are met before any project is granted a verified status. All project data, including verification status, is stored on-chain for transparency.
 
-6. **SuiNS Subdomains**: When a project is verified, it can also register a custom subdomain under the CrowdWalrus main domain through the SuiNS service. This subdomain serves as a unique URL for the project, further enhancing its credibility and visibility.
 
 ## Benefits
 
@@ -40,15 +41,6 @@ The verification process begins with the creation of a project or campaign by a 
 
 ## More Details
 
-### Integration with Sui Blockchain
-CrowdWalrus leverages the **Sui blockchain** to execute all key operations, including the verification process. Sui’s resource-oriented design allows for a highly scalable, decentralized platform that can handle millions of projects and campaigns. 
-
-- **Smart Contracts**: All logic for project creation, verification, and campaign management is handled by smart contracts written in **Move**, the smart contract language of Sui.
-  
-- **Walrus Storage**: Off-chain data such as project descriptions, media files, and campaign updates are stored on **Walrus decentralized storage**, ensuring that content is highly available and not reliant on a centralized server.
-
-- **Blockchain-Level Transparency**: By using blockchain technology, all verification processes, project data, and user contributions are recorded on-chain, ensuring full transparency and security.
-
 ### Role of the Admin and Verifiers
 Initially, an **admin role** will oversee the verification of projects and campaigns. As the platform grows, multiple verifiers can be added to perform these tasks. The role of the admin and verifiers is crucial in maintaining the platform's integrity and ensuring that projects comply with CrowdWalrus’s standards.
 
@@ -58,7 +50,7 @@ Initially, an **admin role** will oversee the verification of projects and campa
 ### User Experience
 The verification system integrates seamlessly into the CrowdWalrus platform. When users view a project or campaign, they can immediately see if the project is verified by the presence of a verified badge. This badge increases trust and helps guide backers toward legitimate initiatives.
 
-1. **For Project Owners**: Project owners can apply for verification once their project is created. Once approved, their project receives the verified badge and a custom subdomain, improving its credibility and visibility.
+1. **For Project Owners**: Project owners won't apply for verification once their project is created, the request will be autogerated. Once approved by Admin or Verifier, their project receives the verified badge and a custom subdomain, improving its credibility and visibility.
    
 2. **For Backers**: Backers can easily identify trustworthy projects through the verified badge. This reduces the risk of fraud and increases confidence in their contributions.
 
