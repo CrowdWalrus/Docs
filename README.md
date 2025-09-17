@@ -21,7 +21,7 @@ This repository is **for documentation only** — covering product design, user 
 
 ### 2. 📐 Product Scoping
 - [📄 Original Proposal](./OriginalProposal.md)  
-- [📄 Detailed MVP Scope](./docs/MVP-scope.md)  
+- [📄 Detailed MVP Scope](./MVP-scope.md)  
 - ✨ *Planned:* [Roadmap](./Roadmap.md), [Changelog](./CHANGELOG.md), [FAQ](./FAQ.md)  
 
 ---
@@ -59,8 +59,7 @@ This repository is **for documentation only** — covering product design, user 
 ## 📂 Other Resources
 - 🎨 [Brand Assets](https://github.com/CrowdWalrus/brand-assets)  
 - 📑 MVP Scoping PDFs (original source docs):  
-  - [Decentralized Crowdfunding – CrowdWalrus (PDF)](./docs/Decentralized-Crowdfunding-CrowdWalrus.pdf)  
-  - [CrowdWalrus MVP – v2 by Moenick (PDF)](./docs/CrowdWalrus-MVP-v2.pdf)  
+ 
 
 ---
 
