@@ -14,7 +14,7 @@ With CrowdWalrus, you get an all-in-one solution for launching a personalized fu
 
 Traditional crowdfunding platforms, while beneficial, have significant limitations that CrowdWalrus aims to solve. Our team, as former builders of the Giveth donation platform, witnessed firsthand the common problems that hinder fundraisers and donors:
 
-* ✂️ **High Fees:** Major platforms often take a **5-10% cut** of each donation in platform and payment processing fees. For a $10,000 campaign, this can mean up to $1,000 lost to intermediaries. On CrowdWalrus, 100% of the donation (minus a minimal network transaction fee) goes directly to the creator.
+* ✂️ **High Fees:** Major platforms often take a **5-10% cut** of each donation in platform and payment processing fees. For a $10,000 campaign, this can mean up to $1,000 lost to intermediaries. On CrowdWalrus, 100% of the donation (minus a minimal network transaction fee) goes directly to the non-profit recipiant.
 
 * 🚫 **Censorship & Gatekeeping:** Centralized sites can unilaterally remove campaigns or reject projects that don't align with their policies or are deemed controversial. This puts creators of political art, investigative journalism, or activism in certain regions at risk of being de-platformed without warning. Because CrowdWalrus sites are hosted on a decentralized network, they cannot be taken down by a single entity.
 
