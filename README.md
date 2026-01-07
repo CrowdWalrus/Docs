@@ -1,69 +1,67 @@
-# 🐋 CrowdWalrus Documentation
+# CrowdWalrus Docs (Draft Content Pack)
 
-Welcome to the official documentation hub for **CrowdWalrus** — a decentralized, censorship-resistant crowdfunding platform built on **Sui** and **Walrus Site**.  
+This folder contains **markdown-first documentation pages** for the CrowdWalrus docs website.
 
-This repository is **for documentation only** — covering product design, user flows, technical architecture, and scoping.  
+- Tone: builder-friendly, “no gatekeepers” vibes.
+- Assumption: campaigns, updates, profiles, and payments are **on-chain on Sui**, while rich content (images + editor state) is stored on **Walrus**.
 
-🎨 For branding, visit 👉 [CrowdWalrus/brand-assets](https://github.com/CrowdWalrus/brand-assets)
+> Last updated: 2025-12-28
 
----
+## Suggested sidebar
 
-## 📚 Table of Contents
+### 1) Start Here
+- Start Here / What is CrowdWalrus
+- Start Here / How CrowdWalrus Works (Sui + Walrus + SuiNS)
+- Start Here / Key Concepts & Glossary
+- Getting Started / Install a Sui wallet
+- Getting Started / Choose network (Testnet vs Mainnet)
+- Getting Started / Get SUI for gas
+- Getting Started / Get WAL for storage
+- FAQ
+- Troubleshooting
 
-### 1. 🚀 Introduction
-- [🌟 Product Overview, Purpose and Vision](./Product-Overview-Purpose-Vision.md)
-- [Projects vs Campaigns](./Understanding-Projects-Campaigns-Differences.md)  
-- [👤 User Personas](./User%20Personas.md)
-- [🤝 Target Audiences](./TargetAudiences.md)
-- [✅ Verification Process](./VerificationProcess.md)  
+### 2) Campaign Owners
+- Launch a Campaign (Step-by-step)
+- Choosing a goal & timeline
+- Choosing a recipient wallet
+- Categories & socials
+- Cover image + rich story editor
+- Storage epochs: what you’re paying for & why
+- Campaign Writing Toolkit
+- Managing Your Campaign
+- Campaign Statuses
+- Verification & Listing
+- Non-profit vs Commercial Campaigns
+- Campaign Deactivation
+- Campaign Deletion
+- Campaign SuiNS Subname
 
----
+### 3) Donors & Supporters
+- How to Contribute (Step-by-step)
+- Supported Tokens & Pricing
+- What’s the Net Amount?
+- NFT Rewards & Donor Levels
+- Creating a Profile
+- Profile SuiNS Subname
+- Safety for Donors
 
-### 2. 📐 Product Scoping
-- [📄 Original Proposal](./OriginalProposal.md)  
-- [📄 Detailed MVP Scope](./MVP-scope.md)  
-- ✨ *Planned:* [Roadmap], [Changelog], [FAQ]
+### 4) Trust, Safety & Verification
+- Verification Overview
+- Verification Process
+- Apply for Verification
+- Reporting Abuse / Scams
+- Content & Listing Policy
+- Transparency Playbook
 
----
+### 5) Developers
+- Architecture Overview
+- Walrus Storage (Quilt)
+- Smart Contract Overview
+- Indexer & APIs
+- Contributing
+- Security Model
 
-### 3. 🏛 Architecture & Tech Research
-- [🖥 Software Architecture](./Software_Architecture.md)  
-- [🎨 Frontend Architecture & Tools](./Frontend%20Architecture%20%26%20Tools.md)  
-- ✨ *Planned:* Smart Contracts, Data Model, Audit  
-
----
-
-### 4. 🔄 User Flows
-- [👨‍💼 Admin Flow](./UserFlow-Admin.md)  
-- [📂 Project Owner Flow](./UserFlow-ProjectOwner.md)  
-- [🛡 Project Moderator Flow](./UserFlow-ProjectModerator.md)  
-- [🎯 Campaign Owner Flow](./UserFlow-CampaignOwner.md)  
-- [💝 Backer/Donor Flow](./UserFlow-Backer-Donor.md)  
-- ✨ *Planned:* Sequence Diagrams, Edge Cases  
-
----
-
-### 5. 💸 Economics & Rewards
-- [⚖️ Financial Split Models](./Financial-Split-Models.md)  
-- [🎁 NFT Reward Mechanism](./NFT-Reward-Mechanism.md)  
-- ✨ *Planned:* QF, Tokenomics, Incentive Design  
-
----
-
-### 6. 🛡 Governance & Policy
-- [✅ Verification Process](./VerificationProcess.md)  
-- ✨ *Planned:* Content Policy, Listing Policy, Trust & Safety, Privacy & Data  
-
----
-
-## 📂 Other Resources
-- 🎨 [Brand Assets](https://github.com/CrowdWalrus/brand-assets)  
-- 📑 MVP Scoping PDFs (original source docs):  
- 
-
----
-
-## 📜 License
-> To be added (suggested: **CC BY-SA 4.0** for documentation).  
-# Docs
-CrowdWalrus Documentation for Product, Tech, UI/UX, Tests, Team Management, CI/CD, and everything related
+### 6) Legal
+- Terms of Use
+- Privacy Policy
+- Disclaimer
