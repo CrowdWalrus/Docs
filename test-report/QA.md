@@ -1,4 +1,5 @@
 # CrowdWalrus UX QA 🧪
+> UX testing summary and findings
 
 Inviting external users to participate in UX testing comes with several practical challenges. Testers often require **WAL or Sui testnet tokens** to interact meaningfully with the dApp, which introduces additional operational friction. There is also a natural **trust barrier**: many users are understandably hesitant to connect their wallets to unfamiliar dApps due to security concerns.
 
@@ -135,4 +136,4 @@ https://www.notion.so
 
 ---
 
-🔗 [Griff Green — Test Party](Griff%20Green%20-%20Test%20Party%202ea3ab28d48c8066bff0f8f13411d404.md)
+
