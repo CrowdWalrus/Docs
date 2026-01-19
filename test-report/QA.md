@@ -11,11 +11,11 @@ The QA phase also kicked off **close to the Christmas and year-end holiday perio
 
 ## 📊 QA Outcomes & Scale
 
-This approach proved effective. During the QA period, we recorded:
+This approach proved effective. During the QA period (Dec 22, 2025 till Jan 16, 2026  we recorded:
 
-- 🧩 **Nearly 400 test campaigns created**
-- 🔁 **Hundreds of campaign interactions**
-- 👥 **Over 2,000 new user test sign-ups**
+- 🧩 ** 411 test campaigns created**
+- 🔁 **542 test donations made**
+- 👥 **Over 420 new user test sign-ups**
 
 These results provided strong real-world usage signals across all core user flows and validated the platform under realistic conditions.
 
