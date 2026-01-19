@@ -13,7 +13,7 @@ The QA phase also kicked off **close to the Christmas and year-end holiday perio
 
 This approach proved effective. During the QA period (Dec 22, 2025 till Jan 16, 2026  we recorded:
 
-- 🧩 ** 411 test campaigns created**
+- 🧩 **411 test campaigns created**
 - 🔁 **542 test donations made**
 - 👥 **Over 420 new user test sign-ups**
 
