@@ -1,0 +1,28 @@
+.features {
+  padding: 2rem 0;
+  width: 100%;
+  display: block; /* was flex -> caused awkward layout behavior */
+}
+
+/* Make columns/cards align and match height cleanly */
+.features :global(.row) {
+  align-items: stretch;
+}
+
+.features :global(.col) {
+  display: flex;
+}
+
+.features :global(.col) > :global(.card) {
+  width: 100%;
+}
+
+.features :global(.card) {
+  height: 100%;
+}
+
+/* keep if you still use SVG features somewhere */
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
