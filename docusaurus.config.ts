@@ -59,7 +59,7 @@ const config: Config = {
       logo: {
         alt: "CrowdWalrus Logo",
         src: "img/crowdwalrus-logo.svg",
-        href: "", // homepage (which will be a doc)
+        href: "/Docs/", // homepage (which will be a doc)
       },
 
       // ✅ Right-aligned items
