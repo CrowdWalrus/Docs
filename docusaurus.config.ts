@@ -13,7 +13,7 @@ const config: Config = {
 
   // ✅ set these to your real domain/repo when ready
   url: "https://crowdwalrus.github.io",
-  baseUrl: "/Docs",
+  baseUrl: "/Docs/",
   trailingSlash: false,
   organizationName: "CrowdWalrus",
   projectName: "crowdwalrus-docs",
