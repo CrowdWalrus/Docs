@@ -29,7 +29,7 @@ CrowdWalrus applies a **5% platform fee only to commercial campaigns**.
 - **Net amount to recipient** = **9.5 SUI**
 
 <p align="center">
-  <img src="/img/d3.png" alt="Donations table"  />
+![Donations table](/img/d3.png)
 </p>
 
 

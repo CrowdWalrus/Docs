@@ -24,7 +24,7 @@ Badges are meant to celebrate participation — they are **not** an investment p
 
 
 <p align="center">
-  <img src="/img/d4.png" alt="Profile showing NFT badges"  />
+![Profile showing NFT badges](/img/d4.png)
 </p>
 
 ### In your wallet

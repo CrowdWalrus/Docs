@@ -39,8 +39,8 @@ If you open your campaign **while your owner wallet is connected**, CrowdWalrus 
 3. If the connected address is the campaign owner, you’ll see **Private Mode** and additional management controls.
 
 <p align="center">
-  <img src="/img/c5.png" alt="Private mode"  />
- <img src="/img/c6.png" alt="Private mode"  />
+![Private mode](/img/c5.png)
+![Private mode](/img/c6.png)
 </p>
 
 :::tip
@@ -61,7 +61,7 @@ You can also manage campaigns from your profile route:
 4. You can view all campaigns created by your address and open any of them to manage.
 
 <p align="center">
-  <img src="/img/c7.png" alt="My campaigns"  />
+![My campaigns](/img/c7.png)
 
 </p>
 

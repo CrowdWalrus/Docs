@@ -82,8 +82,8 @@ Your subname must follow these rules:
 - no leading/trailing hyphens (❌ `-abc` / `abc-`)
 
 <p align="center">
-  <img src="/img/c3-subnameavailable.png" alt="SuiNS subname available" />
-  <img src="/img/c2-subnametaken.png" alt="SuiNS subname taken" />
+![SuiNS subname available](/img/c3-subnameavailable.png)
+![SuiNS subname taken](/img/c2-subnametaken.png)
 </p>
 
 ---

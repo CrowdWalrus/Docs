@@ -21,7 +21,7 @@ You’ll see:
 - recipient net amount
 
 <p align="center">
-  <img src="/img/d1.png" alt="Contribution card"  />
+![Contribution card](/img/d1.png)
 </p>
 
 ## Step 4 — Confirm in your wallet

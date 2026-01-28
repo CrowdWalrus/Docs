@@ -45,7 +45,7 @@ Before you create a campaign or contribute:
 Open **Slush → Settings → Network** and select **Sui Mainnet**.
 
 <p align="center">
-  <img src="/img/n1.png" alt="Slush - mainnet selection"  />
+![Slush - mainnet selection](/img/n1.png)
 </p>
 
 

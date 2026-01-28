@@ -9,9 +9,7 @@ This is the **“from zero to fundraising”** path.
 ## Step 1 — Open the campaign creator
 In the app, click **Launch Your Campaign**.
 
-<p align="center">
-  <img src="/img/c1.png" alt="Start a campaign"  />
-</p>
+![Start a campaign](/img/c1.png)
 
 
 ## Step 2 — Fill all required fields
@@ -25,10 +23,8 @@ This shows at the top of your campaign page and campaign cards.
 Find a memorable and easy to remember name for your campaign, it might get valuable later. SuiSN subnames are like NFTs. They could be taken by others. Try to look up and find out is it available or not. Once booked, you can not change it unless you create another campaign. 
 :::
 
-<p align="center">
-  <img src="/img/c3-subnameavailable.png" alt="SuiNS subnames for CrowdWalrus campaigns."  />
-  <img src="/img/c2-subnametaken.png" alt="SuiNS subname is taken."  />
-</p>
+![SuiNS subnames for CrowdWalrus campaigns.](/img/c3-subnameavailable.png)
+![SuiNS subname is taken.](/img/c2-subnametaken.png)
 
 
 ⚠️ Subname rules:
