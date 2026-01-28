@@ -2,6 +2,10 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
+## Docs
+
+Live docs: https://docs.crowdwalrus.xyz/
+
 ## Installation
 
 ```bash
