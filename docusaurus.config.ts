@@ -30,17 +30,20 @@ const config: Config = {
       "classic",
       {
         // ✅ Make docs live at "/" so the sidebar shows on homepage
+      
         docs: {
           routeBasePath: "/",
-          sidebarPath: "./sidebars.ts",
+           sidebarPath: require.resolve("./sidebars.ts"),
                   },
 
         // ✅ Remove blog completely
         blog: false,
 
         theme: {
-          customCss: "./src/css/custom.css",
+        customCss: require.resolve("./src/css/custom.css"),
         },
+
+        
       } satisfies Preset.Options,
     ],
   ],
