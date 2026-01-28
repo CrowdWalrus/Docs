@@ -12,11 +12,11 @@ const config: Config = {
   },
 
   // ✅ set these to your real domain/repo when ready
-  url: "https://crowdwalrus.github.io",
-  baseUrl: "/Docs/",
+  url: "https://docs.crowdwalrus.xyz",
+  baseUrl: "/",
   trailingSlash: false,
   organizationName: "CrowdWalrus",
-  projectName: "crowdwalrus-docs",
+  projectName: "Docs",
 
   onBrokenLinks: "throw",
 
@@ -62,7 +62,7 @@ const config: Config = {
       logo: {
         alt: "CrowdWalrus Logo",
         src: "img/crowdwalrus-logo.svg",
-        href: "/Docs/", // homepage (which will be a doc)
+        href: "/", // homepage (which will be a doc)
       },
 
       // ✅ Right-aligned items
