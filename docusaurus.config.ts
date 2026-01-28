@@ -59,7 +59,7 @@ const config: Config = {
       logo: {
         alt: "CrowdWalrus Logo",
         src: "img/crowdwalrus-logo.svg",
-        href: "/", // homepage (which will be a doc)
+        href: "", // homepage (which will be a doc)
       },
 
       // ✅ Right-aligned items
@@ -96,9 +96,9 @@ const config: Config = {
         {
           title: "Docs",
           items: [
-            { label: "Start Here", to: "/start-here/what-is-crowdwalrus" },
-            { label: "Campaign Owners", to: "/campaign-owners/launch-a-campaign" },
-            { label: "Donors", to: "/donors/how-to-contribute" },
+            { label: "Start Here", to: "start-here/what-is-crowdwalrus" },
+            { label: "Campaign Owners", to: "campaign-owners/launch-a-campaign" },
+            { label: "Donors", to: "donors/how-to-contribute" },
           ],
         },
         {
