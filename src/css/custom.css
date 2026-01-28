@@ -1,0 +1,216 @@
+/* CrowdWalrus Fonts (fastest way). If you prefer self-hosted fonts, remove this and load locally. */
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  /* Brand colors */
+  --ifm-color-primary: #613dff;
+  --ifm-color-primary-dark: #5433ff;
+  --ifm-color-primary-darker: #4a2cff;
+  --ifm-color-primary-light: #7052ff;
+  --ifm-color-primary-lighter: #7d62ff;
+
+  /* Typography */
+  --ifm-font-family-base: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell,
+    Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  --ifm-heading-font-family: "Inter Tight", Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, Helvetica, Arial;
+
+  /* Clean light UI */
+  --ifm-background-color: #ffffff;
+  --ifm-font-color-base: #0b0f14;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-link-color: #0b0f14;
+  --ifm-navbar-link-hover-color: var(--ifm-color-primary);
+
+  /* Sidebar + active states */
+  --ifm-menu-color-active: var(--ifm-color-primary);
+  --ifm-breadcrumb-color-active: var(--ifm-color-primary);
+
+  /* Rounded modern feel */
+  --ifm-global-radius: 12px;
+
+  /* Sidebar width */
+  --doc-sidebar-width: 320px;
+
+  /* CrowdWalrus “surface” tokens */
+  --cw-surface: #ffffff;
+  --cw-surface-2: #f6f7ff; /* slight violet tint */
+  --cw-border: rgba(15, 23, 42, 0.10);
+  --cw-muted: rgba(11, 15, 20, 0.62);
+  --cw-shadow: 0 10px 28px rgba(15, 23, 42, 0.06);
+  --cw-glow: 0 0 0 4px rgba(97, 61, 255, 0.12);
+}
+
+/* Navbar polish */
+.navbar {
+  box-shadow: 0 1px 0 rgba(15, 23, 42, 0.08);
+}
+
+/* ---------------------------------------
+   Docs Sidebar (CrowdWalrus branded)
+---------------------------------------- */
+
+.theme-doc-sidebar-container {
+  background: linear-gradient(180deg, var(--cw-surface) 0%, var(--cw-surface-2) 100%);
+  border-right: 1px solid var(--cw-border);
+}
+
+.theme-doc-sidebar-menu {
+  padding: 14px 10px 16px;
+}
+
+/* Category header “card” */
+.theme-doc-sidebar-item-category > .menu__list-item-collapsible {
+  border-radius: 14px;
+  padding: 6px;
+  margin: 10px 6px 6px;
+  background: rgba(255, 255, 255, 0.70);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.04);
+  backdrop-filter: blur(8px);
+}
+
+/* ✅ IMPORTANT: Category header text ONLY (Start Here, Campaign Owners, …) */
+.theme-doc-sidebar-item-category
+  > .menu__list-item-collapsible
+  > .menu__link--sublist {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 800;
+  font-size: 0.98rem; /* bigger than items */
+  letter-spacing: 0.01em;
+  color: rgba(11, 15, 20, 0.86);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Indent nested lists slightly */
+.theme-doc-sidebar-menu .menu__list {
+  padding-left: 10px;
+}
+
+/* ✅ Doc links ONLY (What is CrowdWalrus, FAQ, etc.) */
+.theme-doc-sidebar-item-link > .menu__link {
+  border-radius: 12px;
+  padding: 8px 10px;
+  margin: 3px 6px;
+  line-height: 1.25;
+  position: relative;
+  font-weight: 600;
+  font-size: 0.88rem; /* smaller than category */
+  color: rgba(11, 15, 20, 0.72);
+}
+
+/* Nested doc links a bit smaller */
+.theme-doc-sidebar-menu .menu__list .menu__list .theme-doc-sidebar-item-link > .menu__link {
+  font-size: 0.85rem;
+  font-weight: 560;
+  color: rgba(11, 15, 20, 0.70);
+  padding: 7px 10px;
+}
+
+/* Hover */
+.theme-doc-sidebar-item-link > .menu__link:hover,
+.theme-doc-sidebar-item-category
+  > .menu__list-item-collapsible
+  > .menu__link--sublist:hover {
+  background: rgba(97, 61, 255, 0.10);
+  color: rgba(11, 15, 20, 0.92);
+}
+
+/* Active doc link (keep SAME SIZE so it doesn’t look “bigger”) */
+.theme-doc-sidebar-item-link > .menu__link.menu__link--active {
+  font-size: 0.88rem;
+  font-weight: 700;
+  background: linear-gradient(
+    90deg,
+    rgba(97, 61, 255, 0.22) 0%,
+    rgba(97, 61, 255, 0.10) 60%,
+    rgba(97, 61, 255, 0.00) 100%
+  );
+  color: rgba(11, 15, 20, 0.96);
+  box-shadow: var(--cw-glow);
+}
+
+/* Active left bar */
+.theme-doc-sidebar-item-link > .menu__link.menu__link--active::before {
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: 8px;
+  bottom: 8px;
+  width: 3px;
+  border-radius: 6px;
+  background: var(--ifm-color-primary);
+}
+
+/* Caret polish */
+.menu__caret {
+  opacity: 0.85;
+}
+
+/* Scrollbar (subtle) */
+.theme-doc-sidebar-container *::-webkit-scrollbar {
+  width: 10px;
+}
+.theme-doc-sidebar-container *::-webkit-scrollbar-thumb {
+  background: rgba(15, 23, 42, 0.12);
+  border-radius: 999px;
+  border: 3px solid rgba(255, 255, 255, 0.75);
+}
+.theme-doc-sidebar-container *::-webkit-scrollbar-thumb:hover {
+  background: rgba(97, 61, 255, 0.22);
+}
+
+/* ---------------------------------------
+   Dark mode (premium + readable)
+---------------------------------------- */
+[data-theme="dark"] {
+  --ifm-background-color: #0b0f14;
+  --ifm-font-color-base: #e5e7eb;
+
+  --ifm-navbar-background-color: #0b0f14;
+  --ifm-navbar-link-color: #e5e7eb;
+
+  --cw-surface: #0b0f14;
+  --cw-surface-2: #0f172a;
+  --cw-border: rgba(148, 163, 184, 0.18);
+  --cw-muted: rgba(229, 231, 235, 0.65);
+  --cw-shadow: 0 18px 44px rgba(0, 0, 0, 0.35);
+  --cw-glow: 0 0 0 4px rgba(97, 61, 255, 0.22);
+}
+
+[data-theme="dark"] .theme-doc-sidebar-item-category > .menu__list-item-collapsible {
+  background: rgba(15, 23, 42, 0.55);
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.22);
+}
+
+[data-theme="dark"] .theme-doc-sidebar-item-category
+  > .menu__list-item-collapsible
+  > .menu__link--sublist {
+  color: rgba(229, 231, 235, 0.88);
+}
+
+[data-theme="dark"] .theme-doc-sidebar-item-link > .menu__link {
+  color: rgba(229, 231, 235, 0.74);
+}
+
+[data-theme="dark"] .theme-doc-sidebar-menu .menu__list .menu__list .theme-doc-sidebar-item-link > .menu__link {
+  color: rgba(229, 231, 235, 0.68);
+}
+
+[data-theme="dark"] .theme-doc-sidebar-item-link > .menu__link:hover,
+[data-theme="dark"] .theme-doc-sidebar-item-category
+  > .menu__list-item-collapsible
+  > .menu__link--sublist:hover {
+  background: rgba(97, 61, 255, 0.14);
+  color: rgba(229, 231, 235, 0.95);
+}
+
+[data-theme="dark"] .theme-doc-sidebar-item-link > .menu__link.menu__link--active {
+  color: rgba(229, 231, 235, 0.98);
+}
