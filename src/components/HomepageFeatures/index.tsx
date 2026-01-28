@@ -5,9 +5,8 @@ import Heading from '@theme/Heading';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
-// ✅ If your docs live at "/docs" keep this.
-// If your docs are served at "/", change it to "" (empty string).
-const DOCS_BASE = '/docs';
+// Docs are served at "/" (routeBasePath: "/"), so no "/docs" prefix here.
+const DOCS_BASE = '';
 const doc = (slug: string) => `${DOCS_BASE}/${slug}`.replace(/\/+/g, '/');
 
 type ActionCard = {

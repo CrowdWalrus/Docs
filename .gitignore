@@ -1,0 +1,27 @@
+node_modules/
+.docusaurus/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+
+# Env files
+.env
+.env.*
